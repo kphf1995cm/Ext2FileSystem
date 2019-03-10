@@ -3,6 +3,10 @@
 ## 环境
 *Windows* + *Visual Studio 2015*
 ## 原理
+### Ext2文件系统结构
+（https://github.com/kphf1995cm/Ext2FileSystem/blob/master/architecture.PNG ）
+### 索引机制
+（https://github.com/kphf1995cm/Ext2FileSystem/blob/master/index.png ）
 ## 结果
 [程序运行如下]（https://github.com/kphf1995cm/Ext2FileSystem/blob/master/result.PNG ）
 	
