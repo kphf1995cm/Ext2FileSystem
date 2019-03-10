@@ -1138,9 +1138,10 @@ void shellloop(ext2_inode currentdir)
 		case 11:Ls(&currentdir); break;
 		case 12: {
 			int i;
+			printf("commands:");
 			for (i = 0; i < 13; i++)
 			{
-				printf("%s\n", ctable[i]);
+				printf("%s ", ctable[i]);
 			}
 			break;
 		}
