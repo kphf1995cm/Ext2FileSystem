@@ -1,6 +1,9 @@
 /*
+ *
+ * Desc: a 2MB ext2 file system
  * Time: 2016/10/11
  * Author: PengKuang <kphf1995cm@outlook.com>
+ *
  */
 
 #include<stdio.h>
@@ -1004,7 +1007,7 @@ void shellloop(ext2_inode currentdir)
 				break;
 		switch (i)
 		{
-		case 0://create
+		case 0://create file or directory
 		case 1: {
 			scanf("%s", var1);
 			scanf("%s", var2);
